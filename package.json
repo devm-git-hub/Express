@@ -1,0 +1,23 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Starting my Express journey",
+  "homepage": "https://github.com/devm-git-hub/Express#readme",
+  "bugs": {
+    "url": "https://github.com/devm-git-hub/Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devm-git-hub/Express.git"
+  },
+  "license": "ISC",
+  "author": "Dev Mandal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
