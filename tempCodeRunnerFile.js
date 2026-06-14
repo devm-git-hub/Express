@@ -9,6 +9,6 @@ app.listen(port, () => {
 
 app.get('/', (req, res) => {
     console.log('Request recieved');
-    let code = (<h1>Hello, World!</h1>,<h2>Express.js</h2>);
+    let code = "<h1>Hello, World!</h1><h2>Express.js</h2>";
     res.send(code);
 });
