@@ -22,3 +22,6 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.send("This is the Contact Page");
 });
+app.get('/cources', (req, res) => {
+    res.send("This is the Cources Page");
+});
