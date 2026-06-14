@@ -30,3 +30,13 @@ app.get('/:username/:id', (req, res) => {
 // app.get('/cources', (req, res) => {
 //     res.send("This is the Cources Page");
 // });
+
+app.get('/:search', (req, res) => {
+    let { q } = req.query;
+    if (!q) {
+        res.status(400).send("<h1>Search query is required</h1>");
+        return;
+    }
+    // Process the search query
+    res.send(`<h1>Search results for: ${q}</h1>`);
+});
